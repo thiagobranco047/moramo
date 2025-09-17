@@ -8,8 +8,51 @@ import mobiliarioData from '@/data/mobiliario.json'
 const featuredProducts = mobiliarioData
 
 export default function FurniturePage() {
+  // Dados estruturados para produtos de mobiliário
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Espelhos Decorativos e Nichos Organizadores - Moramo Brasil",
+    "description": "Coleção exclusiva de espelhos decorativos e nichos organizadores com design italiano e acabamentos sofisticados.",
+    "url": "https://www.moramo.com.br/mobiliario",
+    "mainEntity": {
+      "@type": "ItemList",
+      "name": "Produtos de Decoração Moramo Brasil",
+      "description": "Espelhos decorativos, nichos organizadores e aparadores com design exclusivo",
+      "numberOfItems": featuredProducts.length,
+      "itemListElement": featuredProducts.map((product, index) => ({
+        "@type": "Product",
+        "position": index + 1,
+        "name": product.name,
+        "description": product.description,
+        "category": product.category,
+        "image": `https://www.moramo.com.br${product.image}`,
+        "url": product.externalLink,
+        "brand": {
+          "@type": "Brand",
+          "name": "Moramo Brasil"
+        },
+        "offers": {
+          "@type": "Offer",
+          "availability": "https://schema.org/InStock",
+          "priceCurrency": "BRL",
+          "seller": {
+            "@type": "Organization",
+            "name": "Moramo Brasil"
+          }
+        }
+      }))
+    }
+  }
   return (
-    <main className="h-full bg-white dark:bg-black overflow-auto">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(structuredData)
+        }}
+      />
+      <main className="h-full bg-white dark:bg-black overflow-auto">
       <div className="max-w-7xl mx-auto px-6 py-6">
         {/* Header */}
         <motion.div 
@@ -75,5 +118,6 @@ export default function FurniturePage() {
         </motion.div>
       </div>
     </main>
+    </>
   )
 }

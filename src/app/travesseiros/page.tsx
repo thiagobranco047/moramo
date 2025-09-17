@@ -8,6 +8,53 @@ import travesseirosData from '@/data/travesseiros.json'
 const pillowProducts = travesseirosData
 
 export default function PillowsPage() {
+  // Dados estruturados para produtos de travesseiros
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Travesseiros Premium e Ergonômicos - Moramo Brasil",
+    "description": "Linha completa de travesseiros premium: ergonômicos, de perna, para bebês e almofadas de pescoço com materiais hipoalergênicos.",
+    "url": "https://www.moramo.com.br/travesseiros",
+    "mainEntity": {
+      "@type": "ItemList",
+      "name": "Travesseiros Premium Moramo Brasil",
+      "description": "Travesseiros ergonômicos, de perna, para bebês e almofadas de pescoço para conforto e bem-estar",
+      "numberOfItems": pillowProducts.length,
+      "itemListElement": pillowProducts.map((product, index) => ({
+        "@type": "Product",
+        "position": index + 1,
+        "name": product.name,
+        "description": product.description,
+        "category": product.category,
+        "image": `https://www.moramo.com.br${product.image}`,
+        "brand": {
+          "@type": "Brand",
+          "name": "Moramo Brasil"
+        },
+        "offers": {
+          "@type": "Offer",
+          "availability": "https://schema.org/InStock",
+          "priceCurrency": "BRL",
+          "seller": {
+            "@type": "Organization",
+            "name": "Moramo Brasil"
+          }
+        },
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Material",
+            "value": "Hipoalergênico"
+          },
+          {
+            "@type": "PropertyValue", 
+            "name": "Tipo",
+            "value": product.category
+          }
+        ]
+      }))
+    }
+  }
   const handleWhatsAppContact = () => {
     const phoneNumber = '5511999999999' // Replace with actual sales number
     const message = 'Olá! Gostaria de saber mais sobre a linha de travesseiros Moramo Brasil.'
@@ -16,7 +63,14 @@ export default function PillowsPage() {
   }
 
   return (
-    <main className="h-full bg-white dark:bg-black overflow-auto">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(structuredData)
+        }}
+      />
+      <main className="h-full bg-white dark:bg-black overflow-auto">
       <div className="max-w-7xl mx-auto px-6 py-6">
         {/* Header */}
         <motion.div 
@@ -81,5 +135,6 @@ export default function PillowsPage() {
         </motion.div>
       </div>
     </main>
+    </>
   )
 }

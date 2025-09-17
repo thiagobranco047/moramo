@@ -1,58 +1,37 @@
 [
   {
     "id": 1,
-    "name": "Travesseiro Memory Foam Premium",
-    "description": "Travesseiro ortopédico com tecnologia memory foam de alta densidade, que se adapta perfeitamente ao formato da cabeça e pescoço, proporcionando alinhamento cervical ideal e conforto durante toda a noite.",
-    "category": "Ortopédico",
-    "image": "/images/travesseiros/memory-foam-premium.webp"
+    "name": "Almofada de Pescoço Luino",
+    "description": "Almofada de pescoço ergonômica Luino, desenvolvida para proporcionar suporte cervical ideal durante viagens, trabalho no computador ou relaxamento. Formato anatômico que alinha perfeitamente a coluna cervical.",
+    "category": "Acessório",
+    "image": "/images/travesseiros/almofada-de-pescoco-luino.webp"
   },
   {
     "id": 2,
-    "name": "Travesseiro de Penas de Ganso",
-    "description": "Travesseiro premium com penas de ganso selecionadas, oferecendo maciez excepcional e capacidade de moldagem natural. Ideal para quem busca conforto luxuoso e durabilidade superior.",
-    "category": "Premium",
-    "image": "/images/travesseiros/penas-ganso.webp"
+    "name": "Travesseiro Bebê Piccolo",
+    "description": "Travesseiro anatômico especial para bebês Piccolo, com altura e densidade adequadas para o desenvolvimento saudável da coluna cervical infantil. Material hipoalergênico, respirável e lavável, garantindo segurança e conforto para os pequenos.",
+    "category": "Infantil",
+    "image": "/images/travesseiros/travesseiro-bebe-piccolo.webp"
   },
   {
     "id": 3,
-    "name": "Travesseiro Cervical Ergonômico",
-    "description": "Travesseiro ergonômico desenvolvido especificamente para alinhamento cervical perfeito. Com formato anatômico que suporta a curvatura natural do pescoço, reduzindo dores e tensões musculares.",
+    "name": "Travesseiro de Perna Lucca",
+    "description": "Travesseiro de perna Lucca, projetado para alinhar perfeitamente as pernas e quadril durante o sono. Reduz pressão nas articulações, melhora a circulação sanguínea e proporciona alinhamento postural ideal para uma noite de sono mais confortável.",
     "category": "Ergonômico",
-    "image": "/images/travesseiros/cervical-ergonomico.webp"
+    "image": "/images/travesseiros/travesseiro-de-perna-lucca.webp"
   },
   {
     "id": 4,
-    "name": "Travesseiro Anti-alérgico Hipoalergênico",
-    "description": "Travesseiro hipoalergênico com tratamento especial anti-ácaros e anti-bactérias. Fabricado com materiais que não causam alergias, perfeito para pessoas sensíveis e alérgicas.",
-    "category": "Especial",
-    "image": "/images/travesseiros/anti-alergico.webp"
+    "name": "Travesseiro King Grosseto",
+    "description": "Travesseiro King Grosseto em tamanho king, oferecendo amplo espaço e conforto superior. Desenvolvido com materiais premium que garantem suporte ideal para cabeça e pescoço, proporcionando noites de sono revigorantes.",
+    "category": "Premium",
+    "image": "/images/travesseiros/travesseiro-king-grosseto.webp"
   },
   {
     "id": 5,
-    "name": "Travesseiro de Fibra Siliconada",
-    "description": "Travesseiro macio e durável com fibra siliconada de alta qualidade. Mantém a forma por mais tempo, oferece excelente suporte e é fácil de lavar, garantindo higiene e conforto duradouro.",
-    "category": "Conforto",
-    "image": "/images/travesseiros/fibra-siliconada.webp"
-  },
-  {
-    "id": 6,
-    "name": "Travesseiro Infantil Anatômico",
-    "description": "Travesseiro anatômico desenvolvido especialmente para crianças, com altura e densidade adequadas para o desenvolvimento saudável da coluna cervical infantil. Material hipoalergênico e lavável.",
-    "category": "Infantil",
-    "image": "/images/travesseiros/infantil-anatomico.webp"
-  },
-  {
-    "id": 7,
-    "name": "Travesseiro Gel Refrescante",
-    "description": "Travesseiro com tecnologia gel que proporciona sensação refrescante durante toda a noite. Ideal para pessoas que sentem calor excessivo ou vivem em climas quentes, mantendo a temperatura ideal para o sono.",
-    "category": "Tecnologia",
-    "image": "/images/travesseiros/gel-refrescante.webp"
-  },
-  {
-    "id": 8,
-    "name": "Travesseiro Bambu Natural",
-    "description": "Travesseiro ecológico feito com fibra de bambu natural, que possui propriedades antibacterianas e antimicrobianas naturais. Macio, respirável e sustentável, oferecendo conforto com consciência ambiental.",
-    "category": "Ecológico",
-    "image": "/images/travesseiros/bambu-natural.webp"
+    "name": "Travesseiro Padrão Siena",
+    "description": "Travesseiro padrão Siena, o equilíbrio perfeito entre conforto e suporte. Tamanho padrão ideal para a maioria das pessoas, com densidade balanceada que se adapta ao formato da cabeça, garantindo alinhamento cervical adequado e conforto duradouro.",
+    "category": "Padrão",
+    "image": "/images/travesseiros/travesseiro-padrao-siena.webp"
   }
 ]

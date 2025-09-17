@@ -31,10 +31,10 @@ export default function Header() {
                 Sobre a Moramo
               </Link>
               <Link 
-                href="/mobiliario" 
+                href="/decoracao" 
                 className="font-sans text-[#64748b] hover:text-black dark:text-gray-300 dark:hover:text-white transition-colors duration-300 text-sm"
               >
-                Móveis
+                Decoração
               </Link>
               <Link 
                 href="/travesseiros" 
@@ -48,18 +48,18 @@ export default function Header() {
           {/* Contact Information */}
           <div className="hidden lg:flex items-center space-x-6">
             <a 
-              href="mailto:contato@moramo.com.br" 
+              href="mailto:loja@moramo.com.br" 
               className="flex items-center space-x-2 text-[#64748b] hover:text-black dark:text-gray-300 dark:hover:text-white transition-colors duration-300"
             >
               <Mail className="w-4 h-4" />
-              <span className="font-sans text-sm">contato@moramo.com.br</span>
+              <span className="font-sans text-sm">loja@moramo.com.br</span>
             </a>
             <a 
-              href="tel:+5511999999999" 
+              href="tel:+5547992512651" 
               className="flex items-center space-x-2 text-[#64748b] hover:text-black dark:text-gray-300 dark:hover:text-white transition-colors duration-300"
             >
               <Phone className="w-4 h-4" />
-              <span className="font-sans text-sm">(11) 99999-9999</span>
+              <span className="font-sans text-sm">(47) 99251-2651</span>
             </a>
             <ThemeToggle />
           </div>

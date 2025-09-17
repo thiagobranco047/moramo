@@ -78,10 +78,10 @@ export default function SobrePage() {
           transition={{ duration: 0.8 }}
           className="text-center mb-12"
         >
-          <h1 className="font-serif text-4xl md:text-5xl font-light text-[#1e293b] dark:text-white mb-6">
+          {/* <h1 className="font-serif text-4xl md:text-5xl font-light text-[#1e293b] dark:text-white mb-6">
             Sobre a Moramo Brasil
-          </h1>
-          <p className="font-sans text-lg text-[#64748b] dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
+          </h1> */}
+          <p className="font-sans text-lg text-[#64748b] dark:text-gray-300 max-w-3xl mx-auto leading-relaxed pt-6">
             Somos uma marca brasileira dedicada a criar produtos de decoração e bem-estar que 
             transformam ambientes e melhoram a qualidade de vida das pessoas.
           </p>
