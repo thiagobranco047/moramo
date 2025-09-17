@@ -1,0 +1,336 @@
+[
+  {
+    "id": 1,
+    "name": "Espelho Aosta",
+    "description": "Espelho decorativo com moldura elegante, disponível em três acabamentos sofisticados para complementar qualquer ambiente.",
+    "category": "Espelhos",
+    "image": "/images/mobiliario/espelho-aosta-moramo-branco.webp",
+    "variants": [
+      {
+        "color": "Branco",
+        "image": "/images/mobiliario/espelho-aosta-moramo-branco.webp"
+      },
+      {
+        "color": "Dourado",
+        "image": "/images/mobiliario/espelho-aosta-moramo-dourado.webp"
+      },
+      {
+        "color": "Preto",
+        "image": "/images/mobiliario/espelho-aosta-moramo-preto.webp"
+      }
+    ],
+    "externalLink": "https://www.moramo.com.br/espelho-aosta"
+  },
+  {
+    "id": 2,
+    "name": "Espelho Bari",
+    "description": "Espelho com design moderno e linhas limpas, perfeito para criar pontos focais em salas de estar e quartos.",
+    "category": "Espelhos",
+    "image": "/images/mobiliario/espelho-bari-moramo-branco.webp",
+    "variants": [
+      {
+        "color": "Branco",
+        "image": "/images/mobiliario/espelho-bari-moramo-branco.webp"
+      },
+      {
+        "color": "Dourado",
+        "image": "/images/mobiliario/espelho-bari-moramo-dourado.webp"
+      },
+      {
+        "color": "Preto",
+        "image": "/images/mobiliario/espelho-bari-moramo-preto.webp"
+      }
+    ],
+    "externalLink": "https://www.moramo.com.br/espelho-bari"
+  },
+  {
+    "id": 3,
+    "name": "Espelho Catani",
+    "description": "Espelho decorativo com moldura refinada, ideal para ambientes que buscam elegância e sofisticação.",
+    "category": "Espelhos",
+    "image": "/images/mobiliario/espelho-catani-moramo-branco.webp",
+    "variants": [
+      {
+        "color": "Branco",
+        "image": "/images/mobiliario/espelho-catani-moramo-branco.webp"
+      },
+      {
+        "color": "Dourado",
+        "image": "/images/mobiliario/espelho-catani-moramo-dourado.webp"
+      },
+      {
+        "color": "Preto",
+        "image": "/images/mobiliario/espelho-catani-moramo-preto.webp"
+      }
+    ],
+    "externalLink": "https://www.moramo.com.br/espelho-catani"
+  },
+  {
+    "id": 4,
+    "name": "Espelho Cortona",
+    "description": "Espelho versátil disponível em orientação horizontal e vertical, com design contemporâneo e acabamento em preto.",
+    "category": "Espelhos",
+    "image": "/images/mobiliario/espelho-cortona-moramo-preto-horizontal.webp",
+    "variants": [
+      {
+        "color": "Preto Horizontal",
+        "image": "/images/mobiliario/espelho-cortona-moramo-preto-horizontal.webp"
+      },
+      {
+        "color": "Preto Vertical",
+        "image": "/images/mobiliario/espelho-cortona-moramo-preto-vertical.webp"
+      }
+    ],
+    "externalLink": "https://www.moramo.com.br/espelho-cortona"
+  },
+  {
+    "id": 5,
+    "name": "Espelho Faenza",
+    "description": "Espelho com moldura clássica e atemporal, disponível em três acabamentos para diferentes estilos decorativos.",
+    "category": "Espelhos",
+    "image": "/images/mobiliario/espelho-faenza-moramo-branco.webp",
+    "variants": [
+      {
+        "color": "Branco",
+        "image": "/images/mobiliario/espelho-faenza-moramo-branco.webp"
+      },
+      {
+        "color": "Dourado",
+        "image": "/images/mobiliario/espelho-faenza-moramo-dourado.webp"
+      },
+      {
+        "color": "Preto",
+        "image": "/images/mobiliario/espelho-faenza-moramo-preto.webp"
+      }
+    ],
+    "externalLink": "https://www.moramo.com.br/espelho-faenza"
+  },
+  {
+    "id": 6,
+    "name": "Espelho Florença",
+    "description": "Espelho decorativo com design inspirado na arte renascentista, perfeito para ambientes clássicos e modernos.",
+    "category": "Espelhos",
+    "image": "/images/mobiliario/espelho-florenca-moramo-branco.webp",
+    "variants": [
+      {
+        "color": "Branco",
+        "image": "/images/mobiliario/espelho-florenca-moramo-branco.webp"
+      },
+      {
+        "color": "Dourado",
+        "image": "/images/mobiliario/espelho-florenca-moramo-dourado.webp"
+      }
+    ],
+    "externalLink": "https://www.moramo.com.br/espelho-florenca"
+  },
+  {
+    "id": 7,
+    "name": "Espelho Grubbio",
+    "description": "Espelho com moldura sofisticada, disponível em dourado e preto para diferentes preferências de estilo.",
+    "category": "Espelhos",
+    "image": "/images/mobiliario/espelho-grubbio-moramo-dourado.webp",
+    "variants": [
+      {
+        "color": "Dourado",
+        "image": "/images/mobiliario/espelho-grubbio-moramo-dourado.webp"
+      },
+      {
+        "color": "Preto",
+        "image": "/images/mobiliario/espelho-grubbio-moramo-preto.webp"
+      }
+    ],
+    "externalLink": "https://www.moramo.com.br/espelho-grubbio"
+  },
+  {
+    "id": 8,
+    "name": "Espelho Ivrea",
+    "description": "Espelho com design contemporâneo e versátil, disponível em duas variações para diferentes necessidades decorativas.",
+    "category": "Espelhos",
+    "image": "/images/mobiliario/espelho-ivrea-moramo-01.webp",
+    "variants": [
+      {
+        "color": "Variação 1",
+        "image": "/images/mobiliario/espelho-ivrea-moramo-01.webp"
+      },
+      {
+        "color": "Variação 2",
+        "image": "/images/mobiliario/espelho-ivrea-moramo-02.webp"
+      }
+    ],
+    "externalLink": "https://www.moramo.com.br/espelho-ivrea"
+  },
+  {
+    "id": 9,
+    "name": "Espelho Mantova",
+    "description": "Espelho decorativo com design elegante, disponível em dourado e preto com duas variações cada.",
+    "category": "Espelhos",
+    "image": "/images/mobiliario/espelho-mantonva-moramo-dourado-01.webp",
+    "variants": [
+      {
+        "color": "Dourado Variação 1",
+        "image": "/images/mobiliario/espelho-mantonva-moramo-dourado-01.webp"
+      },
+      {
+        "color": "Dourado Variação 2",
+        "image": "/images/mobiliario/espelho-mantonva-moramo-dourado-02.webp"
+      },
+      {
+        "color": "Preto Variação 1",
+        "image": "/images/mobiliario/espelho-mantonva-moramo-preto-01.webp"
+      },
+      {
+        "color": "Preto Variação 2",
+        "image": "/images/mobiliario/espelho-mantonva-moramo-preto-02.webp"
+      }
+    ],
+    "externalLink": "https://www.moramo.com.br/espelho-mantova"
+  },
+  {
+    "id": 10,
+    "name": "Espelho Orvieto",
+    "description": "Espelho com design minimalista e moderno, com acabamento em preto para ambientes contemporâneos.",
+    "category": "Espelhos",
+    "image": "/images/mobiliario/espelho-orvietto-moramo-preto.webp",
+    "variants": [
+      {
+        "color": "Preto",
+        "image": "/images/mobiliario/espelho-orvietto-moramo-preto.webp"
+      }
+    ],
+    "externalLink": "https://www.moramo.com.br/espelho-orvieto"
+  },
+  {
+    "id": 11,
+    "name": "Espelho Verona",
+    "description": "Espelho decorativo com moldura clássica, disponível em branco e preto para diferentes estilos de decoração.",
+    "category": "Espelhos",
+    "image": "/images/mobiliario/espelho-verona-moramo-branco.webp",
+    "variants": [
+      {
+        "color": "Branco",
+        "image": "/images/mobiliario/espelho-verona-moramo-branco.webp"
+      },
+      {
+        "color": "Preto",
+        "image": "/images/mobiliario/espelho-verona-moramo-preto.webp"
+      }
+    ],
+    "externalLink": "https://www.moramo.com.br/espelho-verona"
+  },
+  {
+    "id": 12,
+    "name": "Aparador Livorno",
+    "description": "Aparador elegante com design italiano, disponível em três acabamentos para complementar qualquer ambiente.",
+    "category": "Aparadores",
+    "image": "/images/mobiliario/aparador-livorno-moramo-branco.webp",
+    "variants": [
+      {
+        "color": "Branco",
+        "image": "/images/mobiliario/aparador-livorno-moramo-branco.webp"
+      },
+      {
+        "color": "Dourado",
+        "image": "/images/mobiliario/aparador-livorno-moramo-dourado.webp"
+      },
+      {
+        "color": "Preto",
+        "image": "/images/mobiliario/aparador-livorno-moramo-preto.webp"
+      }
+    ],
+    "externalLink": "https://www.moramo.com.br/aparador-livorno"
+  },
+  {
+    "id": 13,
+    "name": "Nicho Sei Lati",
+    "description": "Nicho decorativo com seis lados, perfeito para criar pontos focais e organizar objetos decorativos.",
+    "category": "Nichos",
+    "image": "/images/mobiliario/nicho-sei-lati-moramo-01.webp",
+    "variants": [
+      {
+        "color": "Variação 1",
+        "image": "/images/mobiliario/nicho-sei-lati-moramo-01.webp"
+      },
+      {
+        "color": "Variação 2",
+        "image": "/images/mobiliario/nicho-sei-lati-moramo-02.webp"
+      }
+    ],
+    "externalLink": "https://www.moramo.com.br/nicho-sei-lati"
+  },
+  {
+    "id": 14,
+    "name": "Nicho Spazio Quadrato",
+    "description": "Nicho quadrado com design moderno, ideal para organizar e exibir objetos decorativos de forma elegante.",
+    "category": "Nichos",
+    "image": "/images/mobiliario/nicho-spazio-quadrato-moramo.webp",
+    "variants": [
+      {
+        "color": "Padrão",
+        "image": "/images/mobiliario/nicho-spazio-quadrato-moramo.webp"
+      }
+    ],
+    "externalLink": "https://www.moramo.com.br/nicho-spazio-quadrato"
+  },
+  {
+    "id": 15,
+    "name": "Nicho Spazio Rotondo",
+    "description": "Nicho redondo com design orgânico, perfeito para criar composições decorativas harmoniosas.",
+    "category": "Nichos",
+    "image": "/images/mobiliario/nicho-spazio-rotondo-moramo-01.webp",
+    "variants": [
+      {
+        "color": "Variação 1",
+        "image": "/images/mobiliario/nicho-spazio-rotondo-moramo-01.webp"
+      },
+      {
+        "color": "Variação 2",
+        "image": "/images/mobiliario/nicho-spazio-rotondo-moramo-02.webp"
+      }
+    ],
+    "externalLink": "https://www.moramo.com.br/nicho-spazio-rotondo"
+  },
+  {
+    "id": 16,
+    "name": "Nicho Tre Lati",
+    "description": "Nicho com três lados, disponível em branco e mirtilo, ideal para organizar objetos em diferentes ambientes.",
+    "category": "Nichos",
+    "image": "/images/mobiliario/nicho-tre-lati-moramo-branco-01.webp",
+    "variants": [
+      {
+        "color": "Branco Variação 1",
+        "image": "/images/mobiliario/nicho-tre-lati-moramo-branco-01.webp"
+      },
+      {
+        "color": "Branco Variação 2",
+        "image": "/images/mobiliario/nicho-tre-lati-moramo-branco-02.webp"
+      },
+      {
+        "color": "Mirtilo Variação 1",
+        "image": "/images/mobiliario/nicho-tre-lati-moramo-mirtilo-01.webp"
+      },
+      {
+        "color": "Mirtilo Variação 2",
+        "image": "/images/mobiliario/nicho-tre-lati-moramo-mirtilo-02.webp"
+      }
+    ],
+    "externalLink": "https://www.moramo.com.br/nicho-tre-lati"
+  },
+  {
+    "id": 17,
+    "name": "Nicho Tre Piane",
+    "description": "Nicho com três planos, perfeito para criar composições decorativas em camadas e organizar objetos de forma elegante.",
+    "category": "Nichos",
+    "image": "/images/mobiliario/nicho-tre-piane-moramo-01.webp",
+    "variants": [
+      {
+        "color": "Variação 1",
+        "image": "/images/mobiliario/nicho-tre-piane-moramo-01.webp"
+      },
+      {
+        "color": "Variação 2",
+        "image": "/images/mobiliario/nicho-tre-piane-moramo-02.webp"
+      }
+    ],
+    "externalLink": "https://www.moramo.com.br/nicho-tre-piane"
+  }
+]
