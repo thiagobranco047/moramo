@@ -32,7 +32,7 @@ export default function Home() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            <Link href="/mobiliario">
+            <Link href="/decoracao">
               <div className="group relative bg-black dark:bg-black rounded-2xl p-4 md:p-8 transition-all duration-500 hover-lift overflow-hidden h-64 md:h-80 flex flex-col justify-end">
                 {/* Background Image */}
                 <div className="absolute inset-0 opacity-50 group-hover:opacity-30 transition-opacity duration-500">
